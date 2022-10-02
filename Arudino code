@@ -34,18 +34,18 @@ void loop() {
   Motor2.setSpeed(100);
   Motor3.setSpeed(100);
   Motor4.setSpeed(80);
-  Motor1.run(FORWARD);
+  Motor1.run(BACKWARD);
   Motor2.run(FORWARD);
-  Motor3.run(BACKWARD);
+  Motor3.run(FORWARD);
   Motor4.run(BACKWARD);}
   else if(left==0 && right==1){
   Motor1.setSpeed(100);
   Motor2.setSpeed(80);
   Motor3.setSpeed(80);
   Motor4.setSpeed(100);
-  Motor1.run(BACKWARD);
+  Motor1.run(FORWARD);
   Motor2.run(BACKWARD);
-  Motor3.run(FORWARD);
+  Motor3.run(BACKWARD);
   Motor4.run(FORWARD);
   }
   else{
